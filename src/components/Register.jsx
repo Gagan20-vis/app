@@ -79,7 +79,7 @@ export default function Register() {
       </div>
       <div className="row">
         <div className="col-12 d-flex flex-column" style={{ height: "120px" }}>
-          <div className="mt-auto d-flex justify-content-center">Already registered ? <Link to="/login"> Login here</Link></div>
+          <div className="mt-auto d-flex justify-content-center">Already registered ? <Link to="/app/login"> Login here</Link></div>
         </div>
       </div>
     </div>

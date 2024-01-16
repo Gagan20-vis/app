@@ -52,7 +52,7 @@ export default function Login() {
             </div>
             <div className="row">
                 <div className="col-12 d-flex flex-column" style={{ height: "210px" }}>
-                    <div className="mt-auto d-flex justify-content-center">Not registered ? <Link to="/register"> Register here</Link></div>
+                    <div className="mt-auto d-flex justify-content-center">Not registered ? <Link to="/app/register"> Register here</Link></div>
                 </div>
             </div>
         </div>

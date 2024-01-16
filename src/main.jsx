@@ -9,19 +9,19 @@ import Login from './components/Login.jsx';
 import Register from './components/Register.jsx';
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/app",
     element: <App />,
     children: [
       {
-        path: "",
+        path: "/app/",
         element: <Login />
       },
       {
-        path: "/login",
+        path: "/app/login",
         element: <Login />
       },
       {
-        path: "/register",
+        path: "/app/register",
         element: <Register />
       }
     ]
